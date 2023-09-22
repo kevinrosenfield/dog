@@ -1,7 +1,5 @@
 package dog
 
-import "fmt"
-
-func Bark() {
-	fmt.Println("WOOOOOOFFF")
+func Bark() string {
+	return "WOOOOOOFFF"
 }
